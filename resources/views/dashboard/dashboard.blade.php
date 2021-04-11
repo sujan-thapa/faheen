@@ -1,6 +1,6 @@
 @extends('layouts.dashboard')
 
-@section('title','Booking System')
+@section('title','faheen')
 
 @section('css','/css/dashboard/app.css')
 
@@ -45,35 +45,12 @@
                             <span class="nav__name ">Dashboard</span>
                         </a>
                         <a href="#" class="nav__link">
-                            {{-- <ion-icon name="chatbubbles-outline" class="nav__icon"></ion-icon> --}}
-                            <i name="chatbubbles-outline" class="nav_icon material-icons" >inbox</i>
-
-                            <span class="nav__name">Booking Request</span>
-                        </a>
-
-                        <a href="#" class="nav__link">
-                            <i name="chatbubbles-outline" class="nav_icon material-icons" >local_taxi</i>
-                            <span class="nav__name">Vehicles</span>
-                        </a>
-
-                        <div  class="nav__link collapse">
-                            <ion-icon name="folder-outline" class="nav__icon"></ion-icon>
-                            <span class="nav__name">Vehicles</span>
-                        </div>
-
-                        <a href="#" class="nav__link">
                             {{-- <ion-icon name="pie-chart-outline" class="nav__icon"></ion-icon> --}}
                             <i name="pie-chart-outline" class="nav_icon material-icons" >info</i>
 
-                            <span class="nav__name">Customer Info</span>
+                            <span class="nav__name">User's Info</span>
                         </a>
 
-                        <a href="#" class="nav__link">
-                            {{-- <ion-icon name="pie-chart-outline" class="nav__icon"></ion-icon> --}}
-                            <i name="pie-chart-outline" class="nav_icon material-icons" >info</i>
-
-                            <span class="nav__name">Driver Info</span>
-                        </a>
                         <a href="#" class="nav__link">
                             {{-- <ion-icon name="settings-outline" class="nav__icon"></ion-icon> --}}
                             <i name="settings-outline" class="nav_icon material-icons" >settings</i>
@@ -91,65 +68,6 @@
 
             </nav>
 </div>
-
-        {{-- for card view of boocing request, cust, driver and vehicles info --}}
-
-        <div class="container">
-
-            {{-- for testing dynamic nature of dashboard --}}
-            {{-- <h1>vg</h1>
-            @foreach($user as $key => $value)
-                <p> {{ $value->email }} </p>
-                <p> {{ $value->name }} </p>
-                <img id="for" src="{{asset('/images/user/')}}/{{$value->image}}" alt="vg">
-            @endforeach --}}
-
-
-            <div class="row">
-            <div class="column">
-                <div class="card">
-                    <img src="/images/dashboardIcons/request.png" alt="">
-
-                    <h3>Booking Request</h3>
-                    {{-- <p>dss</p>
-                    <p>sssss</p> --}}
-                </div>
-            </div>
-            <div class="column second">
-                <div class="card">
-                    <img src="/images/dashboardIcons/ccar.png" alt="">
-                    <h3>Vehicles</h3>
-                    {{-- <p>dss</p>
-                    <p>sssss</p> --}}
-                </div>
-            </div>
-        </div>
-
-        <div class="row">
-            <div class="column">
-                <div class="card">
-                    <img src="/images/dashboardIcons/information.png" alt="">
-
-                    <h3>Customer Info</h3>
-
-                    {{-- <p>dss</p>
-                    <p>sssss</p> --}}
-                </div>
-            </div>
-            <div class="column second">
-                <div class="card">
-                    <img src="/images/dashboardIcons/information.png" alt="">
-                    <h3>Driver Info</h3>
-                    {{-- <p>dss</p>
-                    <p>sssss</p> --}}
-                </div>
-            </div>
-        </div>
-
-        </div>
-
-
-
 
 
 
