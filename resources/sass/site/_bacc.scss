@@ -1,0 +1,24 @@
+* {
+    box-sizing: border-box;
+}
+
+body,
+html {
+    margin: 0;
+    height: 100%;
+    //     font-family: Arial;
+    //     font-size: 17px;
+}
+
+#viddeo {
+    position: fixed;
+    // width: 100%;
+    // height: 100;
+    margin: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1;
+    overflow: hidden;
+
+}

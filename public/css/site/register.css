@@ -1,0 +1,84 @@
+* {
+  box-sizing: border-box;
+}
+
+body,
+html {
+  margin: 0;
+  height: 100%;
+}
+
+#viddeo {
+  position: fixed;
+  margin: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  z-index: -1;
+  overflow: hidden;
+}
+
+.content {
+  overflow: hidden;
+}
+.content h3 {
+  color: #887f7f;
+  margin-top: 50px;
+  margin-left: 500px;
+  font-family: "Sofia", sans-serif;
+  font-size: 40px;
+}
+.content form {
+  margin-left: 450px;
+}
+.content form .row .column {
+  float: left;
+  width: 27%;
+  padding: 10px;
+}
+.content form .row .column .gender {
+  width: 40%;
+}
+.content form .row .column input {
+  margin-left: 8px;
+  size: 10px;
+  padding: 2px;
+}
+.content form label {
+  margin: 10px;
+  font-family: "Sofia", sans-serif;
+  font-size: 20px;
+  color: whitesmoke;
+  text-shadow: 3px 3px 3px #ababab;
+}
+.content form input {
+  margin-left: 35px;
+  border-radius: 6px;
+  width: 30%;
+  height: 30px;
+}
+.content form button {
+  margin: 10px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+#password {
+  margin-left: 0;
+}
+
+#gendder {
+  margin-left: 0;
+}
+
+#radioButton {
+  font-family: "Akaya Telivigala", cursive;
+  margin-right: 5px;
+}
+#radioButton input[type=radio] {
+  width: 20px;
+}
+
+#contact {
+  margin-left: 20px;
+}

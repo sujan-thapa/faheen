@@ -1,0 +1,44 @@
+@import "bacc";
+
+
+.content{
+    overflow: hidden;
+    h3{
+        color: rgb(136, 127, 127);
+        // text-align: center;
+        margin-top: 50px;
+        margin-left: 500px;
+        font-family: "Sofia",
+        sans-serif;
+        font-size: 40px;
+    }
+    form{
+        // text-align: center;
+        margin-top: 50px;
+        margin-left: 450px;
+        label{
+            font-family: "Sofia",
+            sans-serif;
+            font-size: 30px;
+            color: whitesmoke;
+            text-shadow: 3px 3px 3px #ababab;
+        }
+        input{
+            border-radius: 6px;
+            width: 30%;
+            height: 30px;
+        }
+        button{
+            margin: 10px;
+            // padding-left: 60px;
+            border-radius: 8px;
+            // text-align: center;
+
+            cursor: pointer;
+
+        }
+    }
+}
+
+
+

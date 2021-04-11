@@ -1,0 +1,50 @@
+* {
+  box-sizing: border-box;
+}
+
+body,
+html {
+  margin: 0;
+  height: 100%;
+}
+
+#viddeo {
+  position: fixed;
+  margin: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  z-index: -1;
+  overflow: hidden;
+}
+
+.content {
+  overflow: hidden;
+}
+.content h3 {
+  color: #887f7f;
+  margin-top: 50px;
+  margin-left: 500px;
+  font-family: "Sofia", sans-serif;
+  font-size: 40px;
+}
+.content form {
+  margin-top: 50px;
+  margin-left: 450px;
+}
+.content form label {
+  font-family: "Sofia", sans-serif;
+  font-size: 30px;
+  color: whitesmoke;
+  text-shadow: 3px 3px 3px #ababab;
+}
+.content form input {
+  border-radius: 6px;
+  width: 30%;
+  height: 30px;
+}
+.content form button {
+  margin: 10px;
+  border-radius: 8px;
+  cursor: pointer;
+}
