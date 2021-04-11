@@ -27,7 +27,7 @@
     @show</title>
 
     {{-- lin for favicon image --}}
-    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="images/faviconn.ico" type="image/x-icon">
 
 </head>
 <body id=@section('id') @show>
